@@ -1,0 +1,24 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper>img{
+width: 500px;
+height: 400px;
+}
+
+
+ .slideshow{
+ 	width: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+    align-items: center;
+    transition-duration: 2s;
+
+}
+.wrapper:hover{
+    background-color: red;
+    width:300px;
+}
